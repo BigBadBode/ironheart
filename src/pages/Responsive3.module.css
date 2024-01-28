@@ -1,0 +1,642 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.imageIcon,
+.vectorIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 625px;
+  object-fit: cover;
+}
+.vectorIcon {
+  height: 100%;
+  bottom: 0;
+  max-height: 100%;
+  cursor: pointer;
+}
+.brandsTwitter,
+.vector {
+  text-decoration: none;
+  top: 0;
+}
+.vector {
+  position: absolute;
+  left: 0;
+  width: 18.6px;
+  height: 20px;
+  opacity: 0;
+}
+.vector.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.brandsTwitter {
+  left: 48.6px;
+  width: 20px;
+}
+.brandsLinkedin,
+.brandsTwitter,
+.socials {
+  position: absolute;
+  height: 20px;
+}
+.brandsLinkedin {
+  text-decoration: none;
+  top: 0;
+  left: 98.6px;
+  width: 20px;
+  opacity: 0;
+}
+.brandsLinkedin.animate,
+.responsive3.animate {
+  animation: 1s ease-out 0s 1 normal forwards slide-in-top;
+}
+.socials {
+  top: 25px;
+  right: 104.4px;
+  width: 118.6px;
+}
+.forgingTheFuture {
+  position: absolute;
+  top: 32.5px;
+  left: 0;
+  display: inline-block;
+  width: 427px;
+}
+.frameChild {
+  position: absolute;
+  top: -2px;
+  left: 471px;
+  border-right: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 4px;
+  height: 191px;
+}
+.aCuttingEdgeStartup {
+  position: absolute;
+  top: 4px;
+  left: 199px;
+  display: flex;
+  align-items: center;
+  width: 243px;
+  height: 31px;
+}
+.component1Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  border: 2px solid var(--color-tomato);
+  box-sizing: border-box;
+}
+.button {
+  position: absolute;
+  height: 77.5%;
+  width: 88.17%;
+  top: 10%;
+  left: 5.91%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 186px;
+  height: 40px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-tomato);
+}
+.tigerAiLabel {
+  position: relative;
+  width: 442px;
+  height: 40px;
+}
+.expandingTheAi {
+  position: absolute;
+  top: 4px;
+  left: 201px;
+  display: flex;
+  align-items: center;
+  width: 243px;
+  height: 31px;
+}
+.hackathonLabel {
+  position: relative;
+  width: 444px;
+  height: 40px;
+}
+.tigerAiLabelParent {
+  position: absolute;
+  top: 18.5px;
+  left: 519px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.forgingTheFutureOfTechParent {
+  position: absolute;
+  top: 107px;
+  left: calc(50% - 469px);
+  width: 963px;
+  height: 187px;
+  text-align: right;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+}
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 51.2px;
+  height: 30px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.ironheartTechLlc,
+.title {
+  position: absolute;
+  top: 4px;
+  left: 70px;
+}
+.title {
+  top: 23px;
+  left: 104px;
+  width: 256px;
+  height: 30px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.squiggleIcon,
+.unionIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.unionIcon {
+  height: 20.85%;
+  width: 100.07%;
+  top: 7.63%;
+  right: -0.14%;
+  bottom: 71.52%;
+  left: 0.07%;
+  max-height: 100%;
+}
+.squiggleIcon {
+  width: 100%;
+  top: 611px;
+  right: 0;
+  left: 0;
+  height: 390.3px;
+}
+.theCrucibleOf {
+  position: absolute;
+  top: 533px;
+  left: calc(50% - 248px);
+  font-size: var(--font-size-21xl);
+  color: #1e1e1e;
+}
+.ironheartTechDevelops {
+  position: absolute;
+  top: 159px;
+  left: 31px;
+  display: inline-block;
+  width: 203px;
+  height: 169px;
+}
+.develop {
+  position: absolute;
+  top: 90px;
+  left: 72px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-chocolate);
+}
+.subtractIcon {
+  position: relative;
+  width: 265px;
+  height: 345px;
+  object-fit: cover;
+}
+.userInterfaceLayer {
+  position: absolute;
+  top: 0;
+  left: 103px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.developPanel {
+  position: absolute;
+  top: 598px;
+  left: calc(50% + 275px);
+  width: 265px;
+  height: 376px;
+}
+.design {
+  position: absolute;
+  top: 90px;
+  left: 81px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-chocolate);
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 13.32%;
+  width: 18.91%;
+  top: 1.6%;
+  right: 40.72%;
+  bottom: 85.08%;
+  left: 40.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.designPanel {
+  position: absolute;
+  top: 667px;
+  left: calc(50% - 132px);
+  width: 265px;
+  height: 376px;
+}
+.discover {
+  position: absolute;
+  top: 90px;
+  left: 67px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-chocolate);
+}
+.locationAndMapDirectionT {
+  position: absolute;
+  top: 1px;
+  left: 102px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.discoverPanel {
+  position: absolute;
+  top: 600px;
+  left: calc(50% - 539px);
+  width: 265px;
+  height: 376px;
+}
+.responsive3Child {
+  position: absolute;
+  width: 100%;
+  top: 1094px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-tomato);
+  height: 778px;
+}
+.tigerAiWas {
+  margin: 0;
+}
+.tigerAiWasContainer {
+  position: absolute;
+  top: 76px;
+  left: calc(50% + 418px);
+  display: inline-block;
+  width: 198px;
+  height: 653px;
+}
+.tigeraiGraphicsIcon {
+  position: absolute;
+  top: 105px;
+  left: calc(50% - 616px);
+  width: 989.3px;
+  height: 586.4px;
+  object-fit: cover;
+}
+.tigerAi {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 615px);
+  font-size: var(--font-size-31xl);
+}
+.tigerAiWasAnExperimentEmpParent {
+  position: absolute;
+  top: 1129px;
+  left: calc(50% - 617px);
+  width: 1232px;
+  height: 729px;
+  text-align: left;
+  color: var(--color-white);
+}
+.responsive3Item {
+  position: absolute;
+  width: 100.07%;
+  top: 1872px;
+  right: -0.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 676px;
+  object-fit: cover;
+}
+.maxwellTuring {
+  position: absolute;
+  top: 1932px;
+  left: calc(50% - 185px);
+  font-size: var(--font-size-31xl);
+  text-align: left;
+}
+.responsive3Inner {
+  position: absolute;
+  top: 2010px;
+  left: calc(50% - 101px);
+  border-top: 2px solid var(--color-tomato);
+  box-sizing: border-box;
+  width: 203px;
+  height: 2px;
+}
+.theWorldsFirst {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 613px;
+}
+.learnMoreAt {
+  font-family: var(--font-inter);
+  color: var(--color-black);
+}
+.wwwmaxwellturingforpresident1 {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.wwwmaxwellturingforpresident {
+  color: inherit;
+}
+.learnMoreAtWwwmaxwellturin {
+  margin: 0;
+  color: var(--color-tomato);
+}
+.maxwellWasBuiltContainer {
+  position: relative;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 692px;
+}
+.theWorldsFirstAiCandidateParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameWrapper {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 98.5px);
+  width: 692px;
+  height: 420px;
+}
+.frameParent,
+.image35Icon {
+  position: absolute;
+  height: 450px;
+}
+.image35Icon {
+  top: 0;
+  left: calc(50% - 593.5px);
+  width: 450px;
+  object-fit: cover;
+}
+.frameParent {
+  top: 2035px;
+  left: calc(50% - 615px);
+  width: 1187px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+}
+.otherEvents {
+  position: relative;
+  font-size: var(--font-size-31xl);
+  color: var(--color-tomato);
+}
+.image39Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 563px;
+  height: 359px;
+  object-fit: cover;
+}
+.accelerateSfIsContainer {
+  position: absolute;
+  top: 153px;
+  left: 599px;
+  display: inline-block;
+  width: 528px;
+  height: 139px;
+}
+.organizerOperator {
+  margin: 0;
+  font-weight: 500;
+}
+.accelerateSfHackathonContainer {
+  position: absolute;
+  top: 68px;
+  left: 599px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 379px;
+}
+.accelerateSf {
+  position: relative;
+  width: 1127px;
+  height: 359px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.image36Icon {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 284px;
+  height: 147px;
+  object-fit: cover;
+}
+.outsideLlmsHackedContainer {
+  position: absolute;
+  top: 164px;
+  left: 0;
+  display: inline-block;
+  width: 285px;
+  height: 54px;
+}
+.outsideLlms {
+  position: relative;
+  width: 285px;
+  height: 218px;
+}
+.image38Icon {
+  position: absolute;
+  top: 0;
+  left: 14px;
+  width: 255px;
+  height: 255px;
+  object-fit: cover;
+}
+.cerebralValleyAttendedContainer {
+  position: absolute;
+  top: 229px;
+  left: 0;
+  display: inline-block;
+  width: 285px;
+  height: 54px;
+}
+.cerebralValley {
+  position: relative;
+  width: 285px;
+  height: 283px;
+}
+.image37Icon {
+  position: absolute;
+  top: 0;
+  left: 61px;
+  width: 163px;
+  height: 163px;
+  object-fit: cover;
+}
+.latitudeGamesCommunityContainer {
+  position: absolute;
+  top: 176px;
+  left: 0;
+  display: inline-block;
+  width: 285px;
+  height: 54px;
+}
+.latitude {
+  position: relative;
+  width: 285px;
+  height: 230px;
+}
+.thisSiteIsContainer {
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  color: #c6c6c6;
+}
+.otherProjectsSection {
+  position: absolute;
+  top: 2547px;
+  left: calc(50% - 720px);
+  background-color: var(--color-white);
+  width: 1333px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 103px;
+  box-sizing: border-box;
+  gap: 115px;
+  font-size: var(--font-size-xl);
+}
+.rectangleDiv {
+  position: absolute;
+  width: 100%;
+  top: 3555px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-black);
+  height: 116px;
+}
+.bodieCurrier {
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  font-weight: 600;
+}
+.linkedin {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  text-decoration: underline;
+  color: inherit;
+}
+.bodiecurriergmailcom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footerLeft {
+  position: absolute;
+  top: 3580px;
+  left: 23px;
+  width: 161px;
+  height: 65px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.frameIcon1 {
+  position: absolute;
+  top: 0;
+  left: 51.5px;
+  width: 66px;
+  height: 39px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.ironheartTechLlc1 {
+  position: absolute;
+  top: 49px;
+  left: 0;
+}
+.footerRight {
+  position: absolute;
+  top: 3580px;
+  right: 23px;
+  width: 169px;
+  height: 66px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.responsive3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3671px;
+  overflow: hidden;
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
